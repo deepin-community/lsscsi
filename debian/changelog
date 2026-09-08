@@ -1,3 +1,17 @@
+lsscsi (0.32-2) unstable; urgency=medium
+
+  * Standards-Version: 4.7.0
+  * Build-Depends on debhelper-compat (= 13)
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Mon, 13 Jan 2025 06:03:58 +1100
+
+lsscsi (0.32-1) unstable; urgency=medium
+
+  * New upstream version
+  * Standards version is 4.6.2
+
+ -- Anibal Monsalve Salazar <anibal@debian.org>  Sun, 13 Aug 2023 19:15:42 +1000
+
 lsscsi (0.31-1) unstable; urgency=medium
 
   * New upstream version
@@ -156,4 +170,3 @@ lsscsi (0.14-1) unstable; urgency=low
     no other changes needed. (upstream knows how to use DESTDIR)
 
  -- Matt Taggart <taggart@debian.org>  Wed,  2 Feb 2005 00:27:11 -0800
-

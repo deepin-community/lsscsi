@@ -1,5 +1,5 @@
 %define name    lsscsi
-%define version 0.31
+%define version 0.32
 %define release 1
 
 Summary: 	List SCSI devices (or hosts) plus NVMe namespaces and ctls
@@ -8,8 +8,8 @@ Version: 	%{version}
 Release: 	%{release}
 License:	GPL
 Group:		Utilities/System
-Source0:	http://sg.danny.cz/scsi/%{name}-%{version}.tgz
-Url:		http://sg.danny.cz/scsi/lsscsi.html
+Source0:	https://sg.danny.cz/scsi/%{name}-%{version}.tgz
+Url:		https://sg.danny.cz/scsi/lsscsi.html
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root/
 Packager:	dgilbert at interlog dot com
 
@@ -54,6 +54,9 @@ fi
 
 
 %changelog
+* Wed May 05 2021 - dgilbert at interlog dot com
+- fixes, minor tweaks
+  * lsscsi-0.32
 * Thu Feb 20 2020 - dgilbert at interlog dot com
 - fixes, minor tweaks
   * lsscsi-0.31

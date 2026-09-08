@@ -1,6 +1,6 @@
 From: Guillaume Delacour <gui@iroqwa.org>
 Subject: Fix FTBFS on kfreebsd by removing obsolete include of linux/major.h
- Linux devices assignement: http://www.kernel.org/doc/Documentation/devices.txt
+ Linux devices assignment: http://www.kernel.org/doc/Documentation/devices.txt
  Similar issue on sysstat: http://bugs.debian.org/395038
 
 Updated by Anibal Monsalve Salazar <anibal@debian.org>
